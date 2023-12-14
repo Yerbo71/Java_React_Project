@@ -28,6 +28,11 @@ const router = createBrowserRouter([
     {
         path: "dashboard/customers",
         element: <ProtectedRoute><Customer /></ProtectedRoute>
+    },
+//Books
+    {
+        path: "dashboard/books",
+        element: <ProtectedRoute><Books /></ProtectedRoute>
     }
 ])
 

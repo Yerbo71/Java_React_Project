@@ -28,14 +28,16 @@ import {
     FiHome,
     FiMenu,
     FiSettings,
-    FiUsers
+    FiUsers,
+    FiBook
 } from 'react-icons/fi';
 import {useAuth} from "../context/AuthContext.jsx";
 import {customerProfilePictureUrl} from "../../services/client.js";
 const LinkItems = [
     {name: 'Home', route: '/dashboard', icon: FiHome},
     {name: 'Customers', route: '/dashboard/customers',  icon: FiUsers},
-    {name: 'Settings', route: '/dashboard/settings', icon: FiSettings},
+    {name: 'Books', route: '/dashboard/books', icon: FiBook},
+    {name: 'Settings', route: '/dashboard/settings', icon: FiSettings}
 ];
 
 export default function SidebarWithHeader({children}) {
@@ -80,7 +82,7 @@ const SidebarContent = ({onClose, ...rest}) => {
             {...rest}>
             <Flex h="20" flexDirection="column" alignItems="center" mx="8" mb={75} mt={2} justifyContent="space-between">
                 <Text fontSize="2xl" fontFamily="monospace" fontWeight="bold" mb={5}>
-                    React
+                    Shrexk
                 </Text>
                 <Image
                     boxSize='75px'
@@ -196,8 +198,8 @@ const MobileNav = ({ onOpen, customerId, ...rest }) => {
                             bg={useColorModeValue('white', 'gray.900')}
                             borderColor={useColorModeValue('gray.200', 'gray.700')}>
                             <MenuItem>Profile</MenuItem>
+                            <MenuItem>Notes</MenuItem>
                             <MenuItem>Settings</MenuItem>
-                            <MenuItem>Billing</MenuItem>
                             <MenuDivider/>
                             <MenuItem onClick={logOut}>
                                 Sign out

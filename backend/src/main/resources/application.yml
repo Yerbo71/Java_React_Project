@@ -39,7 +39,7 @@ spring:
     web-application-type: servlet
   servlet:
     multipart:
-      max-file-size: 10MB
-      max-request-size: 10MB
+      max-file-size: 20MB
+      max-request-size: 20MB
   codec:
-    max-in-memory-size: 10MB
+    max-in-memory-size: 20MB
