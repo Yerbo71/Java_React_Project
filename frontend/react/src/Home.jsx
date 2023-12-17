@@ -1,10 +1,10 @@
 import SidebarWithHeader from "./components/shared/SideBar.jsx";
-import Menu from './components/Menu/Menu.jsx'
+import Portfolio from "./components/portfolio/Portfolio.jsx";
 const Home = () => {
 
     return (
         <SidebarWithHeader>
-            <Menu />
+            <Portfolio/>
         </SidebarWithHeader>
     )
 }

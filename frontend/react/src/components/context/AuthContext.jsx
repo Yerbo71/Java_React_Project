@@ -9,6 +9,7 @@ import jwtDecode from "jwt-decode";
 
 const AuthContext = createContext({});
 
+
 const AuthProvider = ({ children }) => {
 
     const [customer, setCustomer] = useState(null);
@@ -19,7 +20,8 @@ const AuthProvider = ({ children }) => {
             token = jwtDecode(token);
             setCustomer({
                 username: token.sub,
-                roles: token.scopes
+                roles: token.scopes,
+
             })
         }
     }
@@ -38,7 +40,8 @@ const AuthProvider = ({ children }) => {
 
                 setCustomer({
                     username: decodedToken.sub,
-                    roles: decodedToken.scopes
+                    roles: decodedToken.scopes,
+
                 })
                 resolve(res);
             }).catch(err => {

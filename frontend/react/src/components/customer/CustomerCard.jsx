@@ -25,7 +25,6 @@ export default function CardWithImage({id, name, email, age, gender, imageNumber
 
     const { isOpen, onOpen, onClose } = useDisclosure()
     const cancelRef = useRef()
-
     return (
         <Center py={6}>
             <Box

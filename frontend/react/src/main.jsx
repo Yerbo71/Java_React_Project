@@ -9,6 +9,8 @@ import Signup from "./components/signup/Signup";
 import AuthProvider from "./components/context/AuthContext.jsx";
 import ProtectedRoute from "./components/shared/ProtectedRoute.jsx";
 import Home from "./Home.jsx";
+import Notes from "./Notes.jsx";
+import Recipes from "./Recipes.jsx";
 
 const { ToastContainer } = createStandaloneToast();
 
@@ -22,13 +24,24 @@ const router = createBrowserRouter([
         element: <Signup />
     },
     {
-        path: "dashboard",
+        path: "/dashboard",
         element: <ProtectedRoute><Home/></ProtectedRoute>
     },
+
     {
-        path: "dashboard/customers",
+        path: "/dashboard/customers",
         element: <ProtectedRoute><Customer /></ProtectedRoute>
+    },
+
+    {
+        path: "/dashboard/notes",
+        element: <ProtectedRoute><Notes /></ProtectedRoute>
+    },
+    {
+        path: "/dashboard/recipes",
+        element: <ProtectedRoute><Recipes /></ProtectedRoute>
     }
+
 ])
 
 ReactDOM
@@ -41,5 +54,5 @@ ReactDOM
                 </AuthProvider>
                 <ToastContainer />
             </ChakraProvider>
-        </React.StrictMode>,
-    )
+        </React.StrictMode>
+    );

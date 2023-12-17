@@ -18,7 +18,7 @@ const Signup = () => {
         <Stack
             minH={'100vh'}
             direction={{base: 'column', md: 'row'}}
-            backgroundImage={"url('public/SignWall.jpg')"}
+            backgroundImage={"url('/SignWall.jpg')"}
             backgroundSize="cover"
             backgroundPosition="center"
         >
@@ -29,24 +29,23 @@ const Signup = () => {
                 justifyContent={'center'}>
                 <Stack
                     spacing={4}
-                    w={'full'}
+                    w={['90%','80%','70%']}
                     maxW={'md'}
-                    padding={'30px'}
+                    padding={['20px', '30px']}
                     borderRadius={'5%'}
                     borderWidth={'3px'}
                     boxShadow={'0px 0px 50px black'}
-                    minW={'600px'}
                     backdropFilter={'blur(10px)'}
                     >
                     <Image
                         src={"https://static-00.iconduck.com/assets.00/react-icon-512x456-5xl7nmtw.png"}
-                        boxSize={"180px"}
+                        boxSize={['120px','150px']}
                         alt={"React Logo"}
                         alignSelf={"center"}
                     />
                     <Heading
-                        fontSize={'2xl'}
-                        mb={15}
+                        fontSize={['xl','2xl']}
+                        mb={[6,8]}
                         alignSelf={"center"}
                     >Register for an account</Heading>
 

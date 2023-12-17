@@ -39,6 +39,7 @@ const UpdateCustomerDrawer = ({ fetchCustomers, initialValues, customerId }) => 
                         fetchCustomers={fetchCustomers}
                         initialValues={initialValues}
                         customerId={customerId}
+
                     />
                 </DrawerBody>
 
