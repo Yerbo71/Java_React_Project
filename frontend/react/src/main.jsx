@@ -11,6 +11,7 @@ import ProtectedRoute from "./components/shared/ProtectedRoute.jsx";
 import Home from "./Home.jsx";
 import Notes from "./Notes.jsx";
 import Recipes from "./Recipes.jsx";
+import Settings from "./Settings.jsx";
 
 const { ToastContainer } = createStandaloneToast();
 
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
     {
         path: "/dashboard/recipes",
         element: <ProtectedRoute><Recipes /></ProtectedRoute>
+    },
+    {
+        path: "/dashboard/settings",
+        element: <ProtectedRoute><Settings /></ProtectedRoute>
     }
 
 ])
