@@ -96,7 +96,7 @@ const Login = () => {
 
     useEffect(() => {
         if (customer) {
-            navigate('/dashboard/customers');
+            navigate('/dashboard');
         }
     }, [customer, navigate]);
 
