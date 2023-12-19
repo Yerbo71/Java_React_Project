@@ -24,6 +24,7 @@ This project has a full-fledged authorization system
 
 ```http
   1 You need to run Docker (username:amigoscode password:password)
+  2 Open backend file with the help intelliJ idea
   2 Install or update pom.xml
   3 Run Main
   4 After run createRandomCustomer function generate email and default password = password :)
