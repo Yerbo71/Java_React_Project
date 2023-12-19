@@ -5,7 +5,7 @@ import SidebarWithHeader from "./components/shared/SideBar.jsx";
 const Settings = () => {
     return (
         <SidebarWithHeader>
-            <Box ml={{ base: 0, md: 60 }} p="4">
+            <Box ml={{ base: 0, md: 0 }} p="4">
                 <Heading mb="4" textAlign={'center'}>Settings</Heading>
                 <VStack spacing="4">
                     <Box>
