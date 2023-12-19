@@ -43,7 +43,24 @@ This project has a full-fledged authorization system
 ```
 
 ## Screenshots
+#### Login
+![image](https://github.com/Yerbo71/Java_React_Project/assets/115892544/2b1b989d-c7cd-4cc2-92b2-e6350079eca5)
+#### Registration
+![image](https://github.com/Yerbo71/Java_React_Project/assets/115892544/2c7f9e5b-42f9-4e46-8a7a-41b2d27d0630)
+#### Home + Portfolio
+![image](https://github.com/Yerbo71/Java_React_Project/assets/115892544/1cb1c744-a70e-419a-912e-d2897698fc9c)
+#### Recipes
+![image](https://github.com/Yerbo71/Java_React_Project/assets/115892544/8d6b9192-96fd-4f48-9c0b-f47dc2602d7e)
+#### Notes
+![image](https://github.com/Yerbo71/Java_React_Project/assets/115892544/02c5d64c-10f8-4372-a137-f2a3d243ec52)
+#### Administration
+![image](https://github.com/Yerbo71/Java_React_Project/assets/115892544/94ea5cbd-f0ed-40ba-99b9-facd1d3f6796)
+#### Settings
+![image](https://github.com/Yerbo71/Java_React_Project/assets/115892544/56c3c6ba-5b99-4164-afa4-4da7c9bfce73)
 
-![image](https://github.com/Yerbo71/Java_React_Project/assets/115892544/24607eb6-61ac-4b3f-9d7f-91e2a8c3831b)
-
-
+#### Modal + Menu
+![image](https://github.com/Yerbo71/Java_React_Project/assets/115892544/c0ef2340-596f-4ade-a3e8-7c9cf1606b07)
+#### Modal + Notification
+![image](https://github.com/Yerbo71/Java_React_Project/assets/115892544/13a2e8d3-0432-4c32-a0a3-67d25e4a547f)
+#### Modal + Profile
+![image](https://github.com/Yerbo71/Java_React_Project/assets/115892544/c207c651-5085-426e-af7c-4fea1e4045c3)
