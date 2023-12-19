@@ -27,7 +27,7 @@ This project has a full-fledged authorization system
   2 Install or update pom.xml
   3 Run Main
   4 After run createRandomCustomer function generate email and default password = password :)
-  5 Email in appeared in console idea 
+  5 Email appeared in console idea 
 ```
 
 
