@@ -33,7 +33,7 @@ export const TodoWrapper = () => {
     return (
         <Stack>
 
-            wrap={'wrap'}>
+            wrap={'wrap'}
             <Heading
                 alignSelf={'center'}
                 marginTop={'15px'}

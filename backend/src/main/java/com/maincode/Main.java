@@ -36,7 +36,7 @@ public class Main {
         String lastName = name.lastName();
         int age = random.nextInt(16, 80);
         Gender gender = age % 2 == 0 ? Gender.MALE : Gender.FEMALE;
-        String email = firstName.toLowerCase() + "." + lastName.toLowerCase() + "@amigoscode.com";
+        String email = firstName.toLowerCase() + "." + lastName.toLowerCase() + "@mail.com";
         Customer customer = new Customer(
                 firstName +  " " + lastName,
                 email,

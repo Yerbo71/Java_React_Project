@@ -71,7 +71,7 @@ export default function SidebarWithHeader({ children }) {
                 </DrawerContent>
             </Drawer>
             {/* mobilenav */}
-            <MobileNav onOpen={onOpen} customerId={38}/>
+            <MobileNav onOpen={onOpen} />
             <Box ml={{base: 0, md: 60}} p="4">
                 {children}
             </Box>

@@ -18,7 +18,7 @@ const Contact = () => {
         <Box mt="4rem">
             <Heading>Contact me</Heading>
             <Text mx="0.2rem">Let's start building something together</Text>
-            <Box width={['100%', '65%']} mt="2rem" ml="1rem" >
+            <Box width={['90%', '65%']} mt="2rem" ml="1rem" >
                 <form
                     action="https://formsubmit.co/el/fumexu"/*my gmail*/
                     method="POST"
