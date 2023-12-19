@@ -24,6 +24,7 @@ This project has a full-fledged authorization system
 
 ```http
   1 You need to run Docker (username:amigoscode password:password)
+  2 Open backend file with the help intelliJ idea
   2 Install or update pom.xml
   3 Run Main
   4 After run createRandomCustomer function generate email and default password = password :)
@@ -41,5 +42,8 @@ This project has a full-fledged authorization system
   4 Open in Chrome local 
 ```
 
+## Screenshots
+
+![image](https://github.com/Yerbo71/Java_React_Project/assets/115892544/24607eb6-61ac-4b3f-9d7f-91e2a8c3831b)
 
 
