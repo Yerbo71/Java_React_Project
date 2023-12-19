@@ -44,6 +44,6 @@ This project has a full-fledged authorization system
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image](https://github.com/Yerbo71/Java_React_Project/assets/115892544/24607eb6-61ac-4b3f-9d7f-91e2a8c3831b)
 
 
