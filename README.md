@@ -64,3 +64,7 @@ This project has a full-fledged authorization system
 ![image](https://github.com/Yerbo71/Java_React_Project/assets/115892544/13a2e8d3-0432-4c32-a0a3-67d25e4a547f)
 #### Modal + Profile
 ![image](https://github.com/Yerbo71/Java_React_Project/assets/115892544/c207c651-5085-426e-af7c-4fea1e4045c3)
+#### Modal + Create Customer
+![image](https://github.com/Yerbo71/Java_React_Project/assets/115892544/7ec07fd4-b27d-4908-88a8-58a1d8608d54)
+#### Modal + Update Customer
+![image](https://github.com/Yerbo71/Java_React_Project/assets/115892544/07b533f6-3748-4b65-8cea-32ed6cf2c344)
